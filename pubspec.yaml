@@ -1,0 +1,13 @@
+name: test_flow
+description: A starting point for Dart libraries or applications.
+version: 0.9.7-pre
+
+environment:
+  sdk: ">=3.0.0<=4.0.0"
+
+dependencies:
+  meta: ^1.11.0
+  test: ^1.24.0
+
+dev_dependencies:
+  lints: ^3.0.0

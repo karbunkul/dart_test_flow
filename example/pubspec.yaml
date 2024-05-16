@@ -1,0 +1,25 @@
+name: test_flow_example
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: "^3.3.4"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+  test_flow:
+    path: ../
+  go_router: ^14.1.0
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  meta: "^1.11.0"
+  lints: "^3.0.0"

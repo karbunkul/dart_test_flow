@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:meta/meta.dart';
 import 'package:test_flow/src/flow_context.dart';
 import 'package:test_flow/src/flow_provider.dart';
@@ -27,8 +25,8 @@ abstract class CaseFlow<T extends FlowContext> extends FlowTest<T> {
   /// final myCase = MyCase();
   /// await myCase.execTest();
   /// ```
-  FutureOr<void> execTest() async {
-    await flowProvider.execTest(this);
+  void execTest() {
+    flowProvider.execTest(this);
   }
 }
 

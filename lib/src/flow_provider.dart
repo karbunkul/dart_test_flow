@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:meta/meta.dart';
 import 'package:test_flow/src/flow_context.dart';
 import 'package:test_flow/src/flow_test.dart';
@@ -23,5 +21,5 @@ abstract class FlowProvider<T extends FlowContext> {
   /// final provider = MyFlowProvider();
   /// provider.execTest(myTestFlow);
   /// ```
-  FutureOr<void> execTest(FlowTest<T> testFlow);
+  void execTest(FlowTest<T> testFlow);
 }
